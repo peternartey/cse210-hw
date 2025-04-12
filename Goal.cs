@@ -52,7 +52,7 @@ public class EternalGoal : Goal
 
     public override bool IsComplete() => false;
 
-    public override string GetStatus() => "[∞]";
+    public override string GetStatus() => "[8]";
 
     public override string GetStringRepresentation() =>
         $"EternalGoal:{name},{description},{points}";
